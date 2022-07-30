@@ -1,0 +1,105 @@
+body {
+  text-align: center;
+  /* background-color: #393939; */
+  background-color: #00203FFF;
+  padding: 20;
+  margin: 0;
+  font-family: 'Verdana', cursive;
+  color: #fdd835;
+}
+
+
+.excel {
+  position: relative;
+  right: 400px;
+}
+.excelstar {
+  position: relative;
+  right: 400px;
+  bottom: 10px;
+}
+
+.ppt {
+  position: relative;
+  right: 300px;
+}
+.pptstar {
+  position: relative;
+  right: 300px;
+  bottom: 10px;
+}
+
+.c {
+  position: relative;
+  right: 100px;
+}
+.cstar {
+  position: relative;
+  right: 100px;
+  bottom: 10px;
+}
+
+.python {
+  position: relative;
+}
+.pythonstar {
+  position: relative;
+  bottom: 10px;
+}
+
+.pp {
+  position: relative;
+  right: 350px;
+  bottom: 75px;
+}
+
+.about {
+  text-align: left;
+  color: white;
+  position: relative;
+  left: 500px;
+  top: 150px;
+}
+
+.skills {
+  text-align: left;
+  color: white;
+  position: relative;
+  left: 500px;
+}
+
+.projects {
+  color: white;
+  position: relative;
+  
+}
+
+.bus {
+  position: relative;
+  right: 400px;
+  top: 25px;
+}
+
+.bus-info {
+  text-align: left;
+  position: relative;
+  left: 350px;
+  bottom: 90px;
+}
+
+.AI {
+  position: relative;
+  right: 400px;
+}
+.AI-info {
+  text-align: left;
+  position: relative;
+  left: 350px;
+  bottom: 90px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Sacranento', cursive;
+}
+
