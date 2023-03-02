@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bus Management System</title>
+    <link rel="stylesheet" href="C:\Atharv\College Material\Sem 4\Web Technology\CSS\bbcss.css">
+    <link rel="icon" href="C:\Atharv\College Material\Sem 4\Web Technology\images\favicon\favicon.ico">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body  >
+
+<div class="head" >
+<table>
+  <tr>
+    <td>  <img class="logo" src="C:\Atharv\College Material\Sem 4\Web Technology\images\bus1.png" alt="logo">
+      </td>
+    <td>  <h1>Bus Booking</h1>
+      </td>
+      <td>
+          <label for="login"></label>
+          <a href=""></a>
+      </td>
+  </tr>
+</table>
+
+<div class="account">
+<button id="but2" type="button" name="Login" onclick="window.location.href='\login.html'">Login</button> </td>
+<button id="but2" type="button" name="Login" onclick="window.location.href='\signup.html'">SignUp</button> </td>
+</div>
+
+<span class="hidebut">
+        <!-- <button id="click">
+            Hide
+        </button> -->
+        <img id="click" src="C:\Atharv\College Material\Sem 4\Web Technology\images\user.png" alt="user">
+    </span>
+
+</div>
+
+<div class="toppest">
+
+  <div class="top">
+    <h4><br>Book Ticket Now  </h4>
+    <img class="wheel" src="C:\Atharv\College Material\Sem 4\Web Technology\images\steering-wheel1.png" alt="">
+  <table class='t1'>
+    <tr>
+      <td id='tc'>
+        <label for="From:"></label>
+        <input id='but1' type="text" name="Source" placeholder="Source">
+        </td>
+      <td id='tc'>
+        <label for="To:"></label>
+        <input id='but1' type="text" name="Destination" placeholder="Destination">
+        </td>
+      </tr>
+      <tr>
+        <td id='tc'>
+          <input id='but1' type="date" name="" value="">
+        </td>
+        <td id='tc'>
+              <input hover id='but1' type="button" name="Search" value="Search">
+        </td>
+    </tr>
+  </table>
+  <br>
+  </div>
+
+</div>
+
+
+<div class="mid">
+
+<div class="coupons">
+  <div class="coupon11">
+    <h3>FIRST</h3>
+    <br>
+    <p>Use the code for flat 150 OFF</p>
+  </div>
+
+  <div class="coupon22">
+    <h3>Super Hit</h3>
+    <br>
+    <p>Use the code for flat 100 OFF</p>
+  </div>
+</div>
+</div>
+</div>
+
+<svg class="roadstrip1">
+  <rect width="200" height="30" style="fill:#FFF0F0;"/>
+</svg>
+<svg class="roadstrip2">
+  <rect width="200" height="30" style="fill:#FFF0F0;"/>
+</svg>
+
+<div class="imgdiv">
+  <p id="gp">Our Global Presence</p>
+  <div class="imgdiv1">
+    <img id="flag" src="C:\Atharv\College Material\Sem 4\Web Technology\images\india.png">
+    <img id="flag" src="C:\Atharv\College Material\Sem 4\Web Technology\images\usa.png">
+    <img id="flag" src="C:\Atharv\College Material\Sem 4\Web Technology\images\canada.png">
+  </div>
+  <div class="imgdiv2">
+    <img id="flag" src="C:\Atharv\College Material\Sem 4\Web Technology\images\argentina.png">
+    <img id="flag" src="C:\Atharv\College Material\Sem 4\Web Technology\images\portugal.png">
+    <img id="flag" src="C:\Atharv\College Material\Sem 4\Web Technology\images\brazil.png">
+  </div>
+
+</div>
+
+  </body>
+
+  <script>
+        $('#click').on('click', function () {
+            if ($('#click').text() === 'show') {
+                $('#click').text('hide');
+                // $('.account').css('display', 'flex');
+                $('.account').css('display', 'none');
+            }
+            else {
+                $('#click').text('show');
+                // $('.account').css('display', 'none');
+                $('.account').css('display', 'flex');
+            }
+        });
+    </script>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+<form name="myform" onsubmit="return validate()">    
+    <table>
+        <tr>
+            <td>Username</td>
+            <td><input type="text" name="uname"> </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="pwd"></td>
+        </tr>
+        <tr>
+            <td>Confirm Password </td>
+            <td><input type="password" name="cpwd"></td>
+        </tr>
+        <tr>
+            <td>Contact Number</td>
+            <td><input type="text" name="contact"></td>
+        </tr>
+        <tr>
+            <td><input type="submit"></td>
+        </tr>
+    </table>
+</form>
+</body>
+
+<script>
+    function validate()
+    {
+            var uname=document.myform.uname.value;
+            var pwd=document.myform.pwd.value;
+            var cpwd=document.myform.cpwd.value;
+            var contact=document.myform.contact.value;
+
+            if(uname==null||uname=="")
+            {
+                alert('Usename Should not be empty');
+                return false;
+            }
+            if(pwd==null||pwd=="")
+            {
+                alert('Password Should not be empty');
+                return false;
+            } else if(pwd.length<6){
+                alert('Password must be greater than 6 characters');
+                return false;
+            }
+            if(cpwd!=pwd)
+            {
+               alert('Password and Confirm password must match');
+                return false;   
+            }
+            if(contact==null||contact=="")
+            {
+                alert('contact number Should not be empty');
+                return false;
+            }else if(isNaN(contact))
+            {
+                alert('Please enter numeric value');
+                return false;
+            } else if(contact.length<10)
+            {
+                alert('Contact Number must consist 10 digits');
+                return false;
+            }
+
+    }
+
+</script>
+
+</html>

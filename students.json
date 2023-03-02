@@ -1,0 +1,23 @@
+{
+    "stud1" : {
+       "name" : "ABC",
+       "password" : "ABC",
+       "div" : "A",
+       "id": 1
+    
+    },
+    
+    "stud2" : {
+        "name" : "XYZ",
+        "password" : "XYZ",
+        "div" : "A",
+        "id": 2
+    },
+    
+    "stud3" : {
+        "name" : "PQR",
+        "password" : "PQR",
+        "div" : "A",
+        "id": 3
+    }
+ }

@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="text"], input[type="date"], input[type="email"], input[type="password"] {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: green;
+}

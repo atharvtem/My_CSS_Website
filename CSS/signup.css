@@ -1,0 +1,150 @@
+
+body{
+  background-color: #FFF0F0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.head{
+  width: 25%;
+  margin-left: 465px;
+  margin-top: 50px;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF0F0;
+  background-color: #F14C4C;
+}
+
+.top{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* position:relative;
+  top:25px;
+  text-align: center;
+  font-size: 30px;
+  align: center; */
+  color: white;
+  background-color: #F14C4C;
+  margin-left: 380px;
+  margin-right:300px;
+  height: 265px;
+  width: 500px;
+  border-radius: 10%;
+  /* margin: 300px; */
+  margin-top: 30px;
+}
+.form{
+  margin-top: 50px;
+  padding-left: 150px;;
+  padding-right: auto;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+
+
+/* #but1:hover{
+  background-color: gold;
+  color: black;
+} */
+
+h4{
+  color: gold;
+  border: 100px;
+  border-width: medium;
+  border-color: black;
+}
+
+.form1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  margin: 10px;
+}
+
+.but1,.but2,.but3,.but4,.but5{
+  padding: 5px;
+}
+.but2{
+  margin-top: 10px;
+}
+.but3{
+  margin-top: 10px;
+}
+.but4{
+  margin-top: 10px;
+}
+.but5{
+  margin-top: 10px;
+  margin-left: 100px;
+}
+/*
+
+#but1,#but2,#but3,#but4,#but5,#but7{
+
+  height: 25px;
+  border-top: 10%;
+  border-bottom: 10%;
+  border-left: 10%;
+  border-right: 10%;
+}
+#but8{
+  height: 30px;
+  width: 170px;
+  position: relative;
+  left: 70px;
+}
+#but1,#but2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#but2, #but5{
+  position: relative;
+  left: 250px;
+  bottom: 20px;
+}
+#but3{
+  position: relative;
+  left: 75px;
+}
+#but1, #but4{
+
+  position: relative;
+  top: 30px;
+  left: 70px;
+}
+#but4{
+  position: relative;
+  top: 40px;
+}
+#but5{
+  position: relative;
+  top: 10px;
+
+}
+#but6{
+  position: relative;
+  top: 50px;
+  left: 65px;
+}
+#but7{
+  position:relative;
+  top: 90px;
+  left: 220px;
+}
+#but6{
+  position: relative;
+  width: 353px;
+  height: 25px;
+  border-top: 10%;
+  border-bottom: 10%;
+  border-left: 10%;
+  border-right: 10%;
+} */

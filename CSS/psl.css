@@ -1,0 +1,129 @@
+
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-image: url('https://wallpaperaccess.com/full/1628621.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed
+
+  /* height: 100%;
+  overflow: hidden; */
+}
+
+.head{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(36,3,166,0.555);
+  padding-left: 10px;
+}
+
+.account{
+  position: fixed;
+  top:1rem;
+  right:1rem;
+}
+
+h1{
+  color: gold;
+}
+h4{
+  color: gold;
+}
+.top{
+  text-align: center;
+  font-size: 30px;
+  align: center;
+  color: white;
+  background-color: rgba(36,3,166,0.555);
+  margin: 300px;
+  margin-top: 120px;
+}
+.bottom{
+  background-color: #4DA8DA;
+}
+
+.t1{
+  font-size: 20px;
+  /* align-items: center; */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#but1{
+  border: none;
+  background-color: #FFE5B4;
+  font-size: 20px;
+  width: 200px;
+  height: 30px;
+  border-top: 20%;
+  border-bottom: 20%;
+  border-left: 20%;
+  border-right: 20%;
+}
+
+#but1:hover{
+  background-color: black;
+  color: gold;
+}
+
+#but2:hover{
+  background-color: black;
+  color: gold;
+}
+
+#tc{
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.account{
+  color: Black;;
+  float: right;
+}
+
+#but2{
+  border-top: 20%;
+  border-bottom: 20%;
+  border-left: 20%;
+  border-right: 20%;
+  background-color: gold;
+  color: black;
+  font-style: italic;
+  font-size: 17px;
+  width: 100px;
+  height: 50px;
+}
+
+.bottom{
+  color: #eee;
+  background-color: #000f1f;
+  position: relative;
+  bottom: 147px;
+}
+
+.mid1, .mid2{
+  font-size: 15px;
+  font-style: bold;
+  background-color: rgba(36,3,166,0.555);
+  color: Gold;
+  margin: 15px;
+  text-align: center;
+  padding: 15px;
+}
+
+.coupon1, .coupon2{
+  display: inline-flex;
+  border: 5px solid gold;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: relative;
+  bottom: 250px;
+  left: 358px;
+}
+/* #12232E
+#ADEFD1FF */

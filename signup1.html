@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up Now</title>
+    <!-- <link rel="stylesheet" href="C:\Atharv\College Material\Sem 4\Web Technology\CSS\signup.css"> -->
+    <link rel="icon" href="C:\Atharv\College Material\Sem 4\Web Technology\images\favicon\favicon.ico">
+  </head>
+  <body>
+
+    <div class="head">
+      <img class="logo" src="C:\Atharv\College Material\Sem 4\Web Technology\images\bus1.png" alt="logo">
+      <h1>Bus Booking</h1>
+    </div>
+
+    <div class="top">
+
+      <form name="myform" onsubmit="return validate()">
+        <label for="Name"></label>
+        <input id='but1' type="text" name="name" placeholder="Name">
+        <br>
+        <label for="Surname"></label>
+        <input id='but2' type="text" name="surname" placeholder="Last Name">
+        <br>
+        <label for="Gender"></label>
+        <select id="but8" name="gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Others">Prefer Not Say</option>
+        </select>
+        <label for="Username"></label>
+        <input id='but3' type="text" name="uname" placeholder="Set Username">
+        <br>
+        <label for="setpass"></label>
+        <input id='but4' type="password" name="pwd" placeholder="Set Password">
+        <br>
+        <label for="confmpass"></label>
+        <input id='but5' type="password" name="cpwd" placeholder="Confirm Password">
+        <br>
+        <label for="email"></label>
+        <input id='but6' type="text" name="email" placeholder="Email ID">
+        <br>
+        <input hover id='but7' type="submit" name="Signup" value="Submit">
+      </form>
+    </div>
+  </body>
+
+  <script>
+    function validate()
+    {
+            var uname=document.myform.uname.value;
+            var pwd=document.myform.pwd.value;
+            var cpwd=document.myform.cpwd.value;
+            var contact=document.myform.contact.value;
+
+            if(uname==null||uname=="")
+            {
+                alert('Username Should not be empty');
+                return false;
+            }
+            if(pwd==null||pwd=="")
+            {
+                alert('Password Should not be empty');
+                return false;
+            } else if(pwd.length<6){
+                alert('Password must be greater than 6 characters');
+                return false;
+            }
+            if(cpwd!=pwd)
+            {
+               alert('Password and Confirm password must match');
+                return false;
+            }
+
+    }
+
+</script>
+</html>
